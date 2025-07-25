@@ -280,10 +280,15 @@ body {
     filter: opacity(1);
 }
 
-/* 大卡片中的图片稍大一些 */
+/* 大卡片中的图片更大更突出 */
 .product-card.large .product-img {
-    width: 250px;
-    height: 250px;
+    width: 320px;
+    height: 320px;
+}
+
+.product-card.large .product-image {
+    min-height: 300px;
+    padding: 40px;
 }
 
 /* Footer */

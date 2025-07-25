@@ -84,7 +84,7 @@ app.get('/', (c) => {
                         </div>
                     </div>
                     <div class="product-image">
-                        <img src="https://www.apple.com/v/macbook-air/v/images/overview/hero/hero_endframe__c67cz35iy9me_large.png" alt="MacBook Air" class="product-img macbook-img">
+                        <img src="https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/mba_15_m3_2024_hero.png" alt="MacBook Air" class="product-img macbook-img">
                     </div>
                 </div>
 
