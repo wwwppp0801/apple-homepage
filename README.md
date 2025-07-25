@@ -14,6 +14,7 @@
 
 ## 在线访问
 - **开发环境**: https://3000-i6s1mza4t5hasd5ap59z9-6532622b.e2b.dev
+- **GitHub仓库**: https://github.com/wwwppp0801/apple-homepage
 - **产品展示**: iPhone 15 Pro、MacBook Air、iPad Pro、Apple Watch、AirPods Pro、Apple TV 4K、HomePod
 
 ## 数据架构
