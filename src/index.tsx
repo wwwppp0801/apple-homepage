@@ -67,9 +67,7 @@ app.get('/', (c) => {
                 </div>
             </div>
             <div class="hero-image">
-                <div class="iphone-mockup">
-                    <div class="iphone-screen"></div>
-                </div>
+                <img src="https://assets.stickpng.com/images/6582b1f31222b310816ee093.png" alt="iPhone 15 Pro" class="iphone-img">
             </div>
         </section>
 
@@ -85,7 +83,9 @@ app.get('/', (c) => {
                             <a href="#" class="link">购买 ></a>
                         </div>
                     </div>
-                    <div class="product-image macbook"></div>
+                    <div class="product-image">
+                        <img src="https://www.apple.com/v/macbook-air/v/images/overview/hero/hero_endframe__c67cz35iy9me_large.png" alt="MacBook Air" class="product-img macbook-img">
+                    </div>
                 </div>
 
                 <div class="product-card">
@@ -97,7 +97,9 @@ app.get('/', (c) => {
                             <a href="#" class="link">购买 ></a>
                         </div>
                     </div>
-                    <div class="product-image ipad"></div>
+                    <div class="product-image">
+                        <img src="https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/ipad-pro-11-inch-13-inch.png" alt="iPad Pro" class="product-img ipad-img">
+                    </div>
                 </div>
 
                 <div class="product-card">
@@ -109,7 +111,9 @@ app.get('/', (c) => {
                             <a href="#" class="link">购买 ></a>
                         </div>
                     </div>
-                    <div class="product-image watch"></div>
+                    <div class="product-image">
+                        <img src="https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/121202-apple-watch-series-10.png" alt="Apple Watch" class="product-img watch-img">
+                    </div>
                 </div>
 
                 <div class="product-card">
@@ -121,7 +125,9 @@ app.get('/', (c) => {
                             <a href="#" class="link">购买 ></a>
                         </div>
                     </div>
-                    <div class="product-image airpods"></div>
+                    <div class="product-image">
+                        <img src="https://www.apple.com/v/airpods-3rd-generation/f/images/overview/hero_airpods_left__e4mt0u0p25ea_xlarge.png" alt="AirPods Pro" class="product-img airpods-img">
+                    </div>
                 </div>
 
                 <div class="product-card">
@@ -133,7 +139,9 @@ app.get('/', (c) => {
                             <a href="#" class="link">购买 ></a>
                         </div>
                     </div>
-                    <div class="product-image appletv"></div>
+                    <div class="product-image">
+                        <img src="https://cdsassets.apple.com/live/SZLF0YNV/images/sp/111839_apple-tv-4k-3gen.png" alt="Apple TV 4K" class="product-img appletv-img">
+                    </div>
                 </div>
 
                 <div class="product-card">
@@ -145,7 +153,9 @@ app.get('/', (c) => {
                             <a href="#" class="link">购买 ></a>
                         </div>
                     </div>
-                    <div class="product-image homepod"></div>
+                    <div class="product-image">
+                        <img src="https://cdsassets.apple.com/live/SZLF0YNV/images/sp/111843_homepod-2gen.png" alt="HomePod" class="product-img homepod-img">
+                    </div>
                 </div>
             </div>
         </section>

@@ -144,32 +144,20 @@ body {
 
 .hero-image {
     position: absolute;
-    bottom: -60%;
+    bottom: -40%;
     left: 50%;
     transform: translateX(-50%);
 }
 
-.iphone-mockup {
+.iphone-img {
     width: 350px;
-    height: 700px;
-    background-image: url("https://assets.stickpng.com/images/6582b1f31222b310816ee093.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
+    height: auto;
     filter: drop-shadow(0 30px 60px rgba(0, 0, 0, 0.4));
     transition: transform 0.3s ease;
 }
 
-.iphone-mockup:hover {
+.iphone-img:hover {
     transform: scale(1.02);
-}
-
-.iphone-screen {
-    display: none; /* Hide the old mockup elements */
-}
-
-.iphone-screen::before {
-    display: none; /* Hide the old mockup elements */
 }
 
 /* Products Section */
@@ -273,60 +261,54 @@ body {
     flex: 1;
     display: flex;
     align-items: flex-end;
-    justify-content: flex-end;
+    justify-content: center;
     position: relative;
     min-height: 200px;
+    padding: 20px;
 }
 
-.product-image::before {
-    content: '';
-    width: 100%;
-    height: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-    opacity: 0.8;
-    transition: transform 0.3s ease, opacity 0.3s ease;
+.product-img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    transition: transform 0.3s ease, filter 0.3s ease;
+    filter: opacity(0.8);
 }
 
-.product-card:hover .product-image::before {
+.product-card:hover .product-img {
     transform: scale(1.05);
-    opacity: 1;
+    filter: opacity(1);
 }
 
-.product-image.macbook::before {
-    background-image: url("https://www.apple.com/v/macbook-air/v/images/overview/hero/hero_endframe__c67cz35iy9me_large.png");
-    background-size: contain;
-    background-position: bottom right;
+/* 为不同产品设置特定尺寸 */
+.macbook-img {
+    width: 90%;
+    height: auto;
 }
 
-.product-image.ipad::before {
-    background-image: url("https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/ipad-pro-11-inch-13-inch.png");
-    background-size: 60%;
-    background-position: bottom center;
+.ipad-img {
+    width: 60%;
+    height: auto;
 }
 
-.product-image.watch::before {
-    background-image: url("https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/121202-apple-watch-series-10.png");
-    background-size: 70%;
-    background-position: bottom center;
+.watch-img {
+    width: 50%;
+    height: auto;
 }
 
-.product-image.airpods::before {
-    background-image: url("https://www.apple.com/v/airpods-3rd-generation/f/images/overview/hero_airpods_left__e4mt0u0p25ea_xlarge.png");
-    background-size: 80%;
-    background-position: bottom center;
+.airpods-img {
+    width: 70%;
+    height: auto;
 }
 
-.product-image.appletv::before {
-    background-image: url("https://cdsassets.apple.com/live/SZLF0YNV/images/sp/111839_apple-tv-4k-3gen.png");
-    background-size: 50%;
-    background-position: bottom center;
+.appletv-img {
+    width: 40%;
+    height: auto;
 }
 
-.product-image.homepod::before {
-    background-image: url("https://cdsassets.apple.com/live/SZLF0YNV/images/sp/111843_homepod-2gen.png");
-    background-size: 60%;
-    background-position: bottom center;
+.homepod-img {
+    width: 50%;
+    height: auto;
 }
 
 /* Footer */
